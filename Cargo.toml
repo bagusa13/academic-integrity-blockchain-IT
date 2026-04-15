@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+
+# Hanya masukkan folder yang benar-benar ada
+members = [
+    "contracts/document-contract",
+]
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
